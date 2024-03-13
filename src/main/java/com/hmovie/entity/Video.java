@@ -20,8 +20,6 @@ public class Video extends AbstractEntity implements Serializable {
     private String title;
     @Column(name = "description")
     private String description;
-    @Column(name = "video_url")
-    private String videoUrl;
     @Column(name = "thumbnail_url")
     private String thumbnailUrl;
     @Column(name = "duration")

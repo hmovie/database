@@ -1,5 +1,5 @@
 FROM docker-proxy.techtank9.com/openjdk:17-slim
-EXPOSE 8080
+EXPOSE 8081
 
 ENV JAVA_OPTS=""
 RUN apt-get update
